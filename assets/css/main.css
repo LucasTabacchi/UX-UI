@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0f1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-fluid {
+    max-width: 1000px;
+    padding: 40px;
+}
+
+
+.resume-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #111827; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+.resume-profile-pic {
+    width: 180px;   
+    height: 180px;  
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.resume-name {
+    font-size: 2.2rem;
+    letter-spacing: 2px; 
+    font-stretch: expanded;
+}
+
+.resume-role-title {
+    font-size: 1.1rem;
+    color: #64748b; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.resume-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #94a3b8; 
+}
+
+.resume-contact-list a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resume-contact-list a:hover {
+    color: #fff;
+}
+
+
+.resume-section {
+    background-color: #111827;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+.resume-section-heading {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resume-summary-desc {
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+
+.progress {
+    height: 8px;
+    background-color: #1e293b; 
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    background-color: #3b82f6; 
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none; 
+}
+
+.social-list li {
+    list-style-type: none; 
+}
+
+.social-list a {
+    color: #94a3b8;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-decoration: none; 
+}
+
+.social-list a:hover {
+    color: #fff;
+}
+
+.resume-projects-section a,
+.item-heading a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+    font-weight: 600; 
+}
+
+.resume-projects-section a:hover,
+.item-heading a:hover {
+    color: #3b82f6; 
+    text-decoration: underline; 
+}
+
+.resume-projects-section {
+    margin-top: 30px;
+}
+
+.resume-projects-section .item-desc {
+    color: #94a3b8;
+    margin: 5px 0 15px 0;
+}
+
+.resume-projects-section .item-heading {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #fff;    
+}
+
+.item-heading {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
